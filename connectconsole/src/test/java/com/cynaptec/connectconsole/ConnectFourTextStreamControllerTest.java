@@ -101,7 +101,7 @@ public class ConnectFourTextStreamControllerTest {
 
 	@Test
 	public void test_DisplayPlayingBoard_ReturnsExpectedImage_When71223373444QSequenceUsed() {
-		controller = buildController("71223373444QN"); // NOTE P2 winning sequence entered so no (Q)uit required
+		controller = buildController("71223373444QN");
 		controller.main();
 		String[] result = testOutput.toString().split(System.getProperty("line.separator"));
 		assertEquals(".......", result[result.length - 8]);
