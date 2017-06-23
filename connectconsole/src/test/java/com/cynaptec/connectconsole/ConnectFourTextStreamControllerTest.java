@@ -4,18 +4,10 @@ import static org.junit.Assert.*;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
-import java.util.ArrayList;
-import java.util.List;
-
 import org.junit.Before;
 import org.junit.Test;
 
-import com.cynaptec.connect.ConnectFourPlayingService;
 import com.cynaptec.connect.ConnectFourPlayingServiceFactory;
-import com.cynaptec.connect.ConnectSolutionService;
-import com.cynaptec.connect.CoordinatesNavigationService;
-import com.cynaptec.connect.IPreviewablePlayingPieceFactory;
-import com.cynaptec.connect.PlayingBoard;
 
 public class ConnectFourTextStreamControllerTest {
 			

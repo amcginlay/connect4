@@ -1,7 +1,5 @@
 package com.cynaptec.connect;
 
-import java.util.List;
-
 public class ConnectFourScoreKeeperService {
 
 	private int playerOneScore;

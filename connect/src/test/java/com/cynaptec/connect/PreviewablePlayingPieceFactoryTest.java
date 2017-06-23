@@ -18,7 +18,6 @@ public class PreviewablePlayingPieceFactoryTest {
 	public void test_Preview_DoesNotReturnNull_WhenCalledTwice() {
 		IPlayingPieceFactory playingPieceFactory = new P1PlayingPieceFactory();
 		IPreviewablePlayingPieceFactory previewablePlayingPieceFactory = new PreviewablePlayingPieceFactory(playingPieceFactory);
-		IPlayingPiece playingPiece1 = previewablePlayingPieceFactory.preview();
 		IPlayingPiece playingPiece2 = previewablePlayingPieceFactory.preview();
 		assertNotNull(playingPiece2);
 	}
