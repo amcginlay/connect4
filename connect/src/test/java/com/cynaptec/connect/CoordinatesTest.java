@@ -13,7 +13,7 @@ public class CoordinatesTest {
 	}
 
 	@Test
-	public void test_GetX_ReturnsTwo_WhenConstructedWithOneTwo() {
+	public void test_GetY_ReturnsTwo_WhenConstructedWithOneTwo() {
 		Coordinates coords = new Coordinates(1, 2);
 		assertEquals(2, coords.getY());
 	}
