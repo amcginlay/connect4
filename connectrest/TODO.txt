@@ -1,0 +1,3 @@
+Docker-wrap the connect lib with a RESTful SpringBoot application 
+May need to first externalise the state from within the connect lib.
+Aim to expose, for example, a Websocket-based React front end.
