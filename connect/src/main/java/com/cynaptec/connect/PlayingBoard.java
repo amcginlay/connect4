@@ -5,22 +5,20 @@ import static com.cynaptec.connect.Objects.*;
 
 public class PlayingBoard {
 
-	private PlayingBoardDimensions playingBoardDimensions; // TODO can we get rid of this?
 	private IPlayingPiece[][] grid;
 	
 	public PlayingBoard(PlayingBoardDimensions playingBoardDimensions) {
 		requireNonNull(playingBoardDimensions, "playingBoardDimensions");
 			
-		this.playingBoardDimensions = playingBoardDimensions;
 		this.grid = new IPlayingPiece[playingBoardDimensions.getSizeX()][playingBoardDimensions.getSizeY()];
 	}
 
 	public int getSizeX() {
-		return playingBoardDimensions.getSizeX();
+		return grid.length;
 	}
 
 	public int getSizeY() {
-		return playingBoardDimensions.getSizeY();
+		return grid[0].length;
 	}
 	
 	public boolean isInBounds(Coordinates coords) {
